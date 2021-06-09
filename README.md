@@ -1,9 +1,10 @@
 # HDU_CS method for GAZE 2021 competition on the EVE dataset
 
+* Authors: Jun Bao, Buyu Liu, Jun Yu
+
 This code is developed on the repository https://github.com/swook/EVE, which is written by Seonwook Park, Emre Aksan, Xucong Zhang, and Otmar Hilliges as the baseline method for EVE dataset.
 For more information about the baseline method and EVE dataset please see their ECCV 2020 paper 'Towards End-to-end Video-based Eye Tracking' and accompanying project page: https://ait.ethz.ch/projects/2020/EVE/.
 
-* Authors: Jun Bao, Buyu Liu, Jun Yu
 
 ## Environment Setup
 The setup is similar to that of the baseline method.
