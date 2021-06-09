@@ -5,7 +5,7 @@ For more information about the baseline method and EVE dataset please see their 
 
 * Authors: Jun Bao, Buyu Liu, Jun Yu
 
-## Setup
+## Environment Setup
 The setup is similar to that of the baseline method.
 
 We have tested this code-base in the following environments:
@@ -27,7 +27,7 @@ You will also need to setup **ffmpeg** for video decoding. On Linux, we recommen
 
 ## Usage
 
-### directories and configurations setup 
+### Directories specification
 
 1. The EVE dataset should be put in directory 'EVE_SCPT/inputs/datasets/eve_dataset'. An example sample directory is 'EVE_SCPT/inputs/datasets/eve_dataset/test01/step008_image_MIT-i2263021117'
 
