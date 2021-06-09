@@ -1,0 +1,51 @@
+{   "_comments": "changes from EVE author, batch_size to 4, test_batch_size from 128 to 4; full_test_batch_size from 64 to 4; test_every_n_steps from 100 to 5; checkpoints_save_every_n_steps set to 5",
+    "config_id": "inference_eye_net_10Hz_without_pupil_sc_pt_nsejjeif",
+    "identifier_suffix": "",
+    "resume_from": "",
+
+    "tensorboard_scalars_every_n_steps": 1,
+    "tensorboard_images_every_n_steps": 100,
+
+    "batch_size": 16,
+    "num_epochs": 8,
+
+    "assumed_frame_rate": 10,
+    "max_sequence_len": 30,
+    "train_data_workers": 8,
+
+    "test_batch_size": 1,
+    "full_test_batch_size": 1,
+    "test_every_n_steps": 250,
+    "checkpoints_save_every_n_steps": 100,
+    "checkpoints_keep_n": 30,
+
+    "weight_decay": 0.005,
+
+    "base_learning_rate": 0.001,
+    "lr_decay_strategy": "exponential",
+    "lr_decay_factor": 0.5,
+    "lr_decay_epoch_interval": 1,
+
+    "refine_net_enabled": false,
+    "do_gradient_clipping": true,
+    "gradient_clip_by": "norm",
+    "gradient_clip_amount": 5.0,
+
+    "eyes_size": [128, 128],
+    "eye_net_use_rnn": true,
+    "eye_net_rnn_type": "GRU",
+    "eye_net_rnn_num_features": 128,
+    "eye_net_static_num_features": 128,
+    "eye_net_use_head_pose_input": true,
+    "loss_coeff_PoG_cm_initial": 0.0,
+    "loss_coeff_g_ang_initial": 1.0,
+    "loss_coeff_pupil_size": 0.0,
+
+    "eye_net_load_pretrained": true,
+    "eye_net_load_from_specified_location": "/samba/room/codespace/pythonWorkingSpace/EVE_SCPT/src/models/trained_model_params/eye_net_without_pupil.pt",
+    "load_full_frame_for_visualization": false,
+    "mute_visualization": true,
+    "model_used": "EVEC",
+    "central_calibration_enabled": true,
+    "st_transform_enabled": true
+}
