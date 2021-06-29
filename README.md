@@ -56,14 +56,14 @@ The result 'for_codalab_xxxxxx_xxxxxx_offline.pkl.gz' should score 1.95 degrees 
 ## Citation
 If you find this post helpful, please cite:
 
-@misc{bao2021story,
-      title={The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation}, 
-      author={Jun Bao and Buyu Liu and Jun Yu},
-      year={2021},
-      eprint={2106.14183},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+    @misc{bao2021story,
+          title={The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation}, 
+          author={Jun Bao and Buyu Liu and Jun Yu},
+          year={2021},
+          eprint={2106.14183},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+    }
 
 For GAZE 2021 competition on EVE dataset, please cite:
 
