@@ -2,11 +2,9 @@
 
 * Authors: Jun Bao, Buyu Liu, Jun Yu
 
-Our full report for this method can be found here: https://arxiv.org/abs/2106.14183
+Our full report for this method can be found in paper 'The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation', https://arxiv.org/abs/2106.14183.
 
-This code is developed on the repository https://github.com/swook/EVE, which is written by Seonwook Park, Emre Aksan, Xucong Zhang, and Otmar Hilliges as the baseline method for EVE dataset.
-
-For more information about the baseline method and EVE dataset please see their ECCV 2020 paper 'Towards End-to-end Video-based Eye Tracking' and accompanying project page: https://ait.ethz.ch/projects/2020/EVE/.
+This code is developed on the repository https://github.com/swook/EVE, which is written by Seonwook Park, Emre Aksan, Xucong Zhang, and Otmar Hilliges as the baseline method for EVE dataset. For more information about the baseline method and EVE dataset please see their ECCV 2020 paper 'Towards End-to-end Video-based Eye Tracking' and accompanying project page: https://ait.ethz.ch/projects/2020/EVE/.
 
 
 ## Environment Setup
