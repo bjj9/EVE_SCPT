@@ -3,7 +3,9 @@
 * Authors: Jun Bao, Buyu Liu, Jun Yu
 
 Our full report for this method can be found here: https://arxiv.org/abs/2106.14183
+
 This code is developed on the repository https://github.com/swook/EVE, which is written by Seonwook Park, Emre Aksan, Xucong Zhang, and Otmar Hilliges as the baseline method for EVE dataset.
+
 For more information about the baseline method and EVE dataset please see their ECCV 2020 paper 'Towards End-to-end Video-based Eye Tracking' and accompanying project page: https://ait.ethz.ch/projects/2020/EVE/.
 
 
@@ -55,6 +57,7 @@ The result 'for_codalab_xxxxxx_xxxxxx_offline.pkl.gz' should score 1.95 degrees 
 
 ## Citation
 If you find this post helpful, please cite:
+
 @misc{bao2021story,
       title={The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation}, 
       author={Jun Bao and Buyu Liu and Jun Yu},
@@ -65,6 +68,7 @@ If you find this post helpful, please cite:
 }
 
 For GAZE 2021 competition on EVE dataset, please cite:
+
     @inproceedings{Park2020ECCV,
       author    = {Seonwook Park and Emre Aksan and Xucong Zhang and Otmar Hilliges},
       title     = {Towards End-to-end Video-based Eye-Tracking},
