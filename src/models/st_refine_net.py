@@ -291,7 +291,7 @@ class StRefine(object):
         return arr
 
 if __name__ == "__main__":
-    model_dir = '/samba/room/storage/Bji/network_outputs/spacial_transform/evec_transform/model_fake_eyetracking_dataset_1kg_128_72_error00_valid_random_ii_in_sequence_person_gt'
+    model_dir = './models/trained_model_params'
     state_name = 'spatical_transform_model_fake_eyetracking_dataset_1kg_128_72_error00_valid_random_ii_in_sequence_person_gt_lr_0.1_100_full'
     state_path = model_dir + '/' + state_name
     st_refine = StRefine(StNet_path=state_path)
