@@ -106,7 +106,7 @@ class EVEC(nn.Module):
                 param.requires_grad = False
 
         # 2. Network to refine gaze by spatical tranforming
-        state_path = '/samba/room/codespace/pythonWorkingSpace/EVE_SCPT/src/models/trained_model_params/spatical_transform_model_fake_eyetracking_dataset_1kg_128_72_error00_valid_random_ii_in_sequence_person_gt_lr_0.1_99_full.pt'
+        state_path = './models/trained_model_params/spatical_transform_model_fake_eyetracking_dataset_1kg_128_72_error00_valid_random_ii_in_sequence_person_gt_lr_0.1_99_full.pt'
         self.st_refine_net = StRefine(StNet_path=state_path)
         self.fixed_history_len = fixed_history_len
         if self.fixed_history_len is not None:
