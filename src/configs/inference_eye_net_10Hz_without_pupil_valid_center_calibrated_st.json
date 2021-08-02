@@ -42,7 +42,7 @@
     "loss_coeff_pupil_size": 0.0,
 
     "eye_net_load_pretrained": true,
-    "eye_net_load_from_specified_location": "/samba/room/codespace/pythonWorkingSpace/EVE_SCPT/src/models/trained_model_params/eye_net_without_pupil.pt",
+    "eye_net_load_from_specified_location": "./models/trained_model_params/eye_net_without_pupil.pt",
     "load_full_frame_for_visualization": false,
     "mute_visualization": true,
     "model_used": "EVEC",
